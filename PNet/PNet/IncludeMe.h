@@ -1,6 +1,2 @@
 #pragma once
-// Test function
-namespace PNet
-{
-	int ReturnFive();
-}
+#include "Network.h"
