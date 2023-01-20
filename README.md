@@ -1,8 +1,9 @@
 # Obejctive
 - Learn C++ Blocking Sockets Networking
-- 
-# Setup
-## Server
-- 1. PNet as shared networking Static library
-- 2. Server
-- 3. Client
+
+# QnA Global
+- Q: Use case of Blocking Sockets
+- A: ?
+
+# Resources
+- [Jpres's Tutorial](https://youtube.com/playlist?list=PLcacUGyBsOIDPNN9KRxYhD7_zVLmfA_Zy)
