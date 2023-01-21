@@ -15,13 +15,13 @@ int main()
 		if (socket.Create() == PResult::P_Success)
 		{
 			std::cout << "Socket successfully created." << std::endl;
-			if (socket.Bind(IPEndpoint("0.0.0.0", 4790)) == PResult::P_Success)
+			if (socket.Listen(IPEndpoint("0.0.0.0", 4790)) == PResult::P_Success)
 			{
-				std::cout << "Socket successfully bound to port 4790." << std::endl;
+				std::cout << "Socket successfully listening on port 4790." << std::endl;
 			}
 			else 
 			{
-				std::cout << "Failed to bind socket to port 4790." << std::endl;
+				std::cout << "Failed to listen on port 4790." << std::endl;
 			}
 			socket.Close();
 		}
