@@ -15,6 +15,8 @@ namespace PNet
 		PResult Close();
 		PResult Bind(IPEndpoint endpont);
 		PResult Listen(IPEndpoint endpoint, int backlog = 5);
+		PResult Accept(Socket& outSocket);
+		PResult Connect(IPEndpoint endpoint);
 
 		SocketHandle GetHandle();
 		IPVersion GetIPVersion();
