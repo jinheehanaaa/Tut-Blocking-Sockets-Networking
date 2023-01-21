@@ -31,5 +31,5 @@
 
 ```
 # Official Documentation
-- [Socket](https://learn.microsoft.com/en-us/windows/win32/api/winsock2/nf-winsock2-socket)
-- [closesocket](https://learn.microsoft.com/en-us/windows/win32/api/winsock/nf-winsock-closesocket)
+- [socket function](https://learn.microsoft.com/en-us/windows/win32/api/winsock2/nf-winsock2-socket)
+- [closesocket function](https://learn.microsoft.com/en-us/windows/win32/api/winsock/nf-winsock-closesocket)

@@ -9,7 +9,7 @@
 - bool vs. BOOL is different (BOOL is actually integer)
 
 # Official Documentation
-- [setsockopt](https://learn.microsoft.com/en-us/windows/win32/api/winsock/nf-winsock-setsockopt)
+- [setsockopt function](https://learn.microsoft.com/en-us/windows/win32/api/winsock/nf-winsock-setsockopt)
 
 # Minor Resources
 - Some optional information 
