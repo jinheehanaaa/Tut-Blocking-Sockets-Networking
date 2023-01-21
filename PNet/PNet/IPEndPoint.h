@@ -2,6 +2,8 @@
 #include "IPVersion.h"
 #include <string>
 #include <vector>
+#include <WS2tcpip.h>
+
 namespace PNet
 {
 	class IPEndpoint
@@ -13,6 +15,7 @@ namespace PNet
 		std::string GetHostname();
 		std::string GetIPString();
 		unsigned short GetPort();
+		sockaddr_in GetSockaddrIPv4();
 	private:
 		IPVersion ipversion = IPVersion::Unknwon;
 		std::string hostname = "";

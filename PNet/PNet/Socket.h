@@ -13,6 +13,7 @@ namespace PNet
 		Socket(IPVersion ipversion = IPVersion::IPv4, SocketHandle handle = INVALID_SOCKET);
 		PResult Create();
 		PResult Close();
+		PResult Bind(IPEndpoint endpont);
 		SocketHandle GetHandle();
 		IPVersion GetIPVersion();
 	private:
