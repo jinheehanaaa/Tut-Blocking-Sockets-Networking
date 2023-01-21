@@ -17,5 +17,5 @@
 - - Need to handle Close function from the server for testing purposes
 
 # Official Documentation
-- [Accept function](https://learn.microsoft.com/en-us/windows/win32/api/winsock2/nf-winsock2-accept)
-- [Connect function](https://learn.microsoft.com/en-us/windows/win32/api/winsock2/nf-winsock2-connect)
+- [accept function](https://learn.microsoft.com/en-us/windows/win32/api/winsock2/nf-winsock2-accept)
+- [connect function](https://learn.microsoft.com/en-us/windows/win32/api/winsock2/nf-winsock2-connect)
